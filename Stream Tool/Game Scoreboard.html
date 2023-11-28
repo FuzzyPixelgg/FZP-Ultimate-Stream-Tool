@@ -44,8 +44,8 @@
         }
 
         #logo {
-           left: 860px;
-           top: 10px;
+           left: 840px;
+           top: 830px;
         }
 
         .mirror {
@@ -121,23 +121,23 @@
 
         .wrappers {
             position: absolute;
-            width: 130px;
+            width: 190px;
             height: 54px;
             line-height: 54px;
-            top: 1280px;
+            top: 1277px;
             opacity: 0;
             color: white;
         }
 
         #p1Wrapper {
-            left: 327px;
+            left: 340px;
             text-align: left;
          
         }
 
         #p2Wrapper {
-            right: -236px;
-            text-align: right;
+            left: 118px;
+            text-align: left;
    
         }
 
@@ -215,24 +215,26 @@
             left: 10px;
             bottom: 70px;
             opacity: 0;
+            font-size: 16px;
         }
 
         #format {
             position: absolute;
-            left: 1213px;
-            top: -903px;
+            left: 970px;
+            top: 25px;
             text-align: center;
             font-family: "Smash";
+            font-size: 12px;
             color: #000000;
         } 
 
         #round {
             position: absolute;
-            width: 230px;
+            width: 150px;
             height: 40px;
             line-height: 50px;
-            left: 602PX;
-            top: -898px;
+            left: 852px;
+            top: 10px;
             text-align: center;
             font-family: "Smash";
             color: #000000;
@@ -242,18 +244,18 @@
             position: absolute;
             width: 263px;
             height: 50px;
-            left: 1020px;
-            top: -903px;
+            left: 800px;
+            top: 40px;
             text-align: center;
             font-family: "Smash";
-            font-size: 28px;
+            font-size: 16px;
             color: #000000;
         }
 
         #p1NScore {
         position: absolute;
-        top: 46px;
-        left: 382px;
+        top: 1010px;
+        left: 350px;
         text-align: center;
         opacity: 0;
         width: 55px;
@@ -265,8 +267,8 @@
 
         #p2NScore {
         position: absolute;
-        top: 46px;
-        right: 394px;
+        top: 1010px;
+        right: 350px;
         text-align: center;
         opacity: 0;
         width: 55px;
@@ -278,8 +280,8 @@
 
         #overlayCasters {
             position: absolute;
-            right: 12px;
-            bottom: 50px;
+            right: -40px;
+            bottom: 250px;
             opacity: 1;
             transform: scale(1.1);
             filter: drop-shadow(0px 0px 3px black);
@@ -438,7 +440,7 @@
 <body>
 
  
-    <img class="absol" src="Resources/Overlay/Scoreboard.png">
+    <img class="absol" style="display: none;" src="Resources/Overlay/Scoreboard.png">
 
     <div id="logo" class="logo">
 
@@ -451,10 +453,10 @@
     <div id="overlayP1" class="scoreboardP1">
        
 
-        <div class="rect" id="p1Color"></div>
+        <div class="rect" style="display: none;" id="p1Color"></div>
         <img class="sagaIcon" id="sagaIconP1">
         <div class="pCharaMask">
-            <img id="p1Character" class="pCharacter">
+            <img id="p1Character" style="display: none;" class="pCharacter">
         </div>
 
         <img id="teamLogoP1" class="teamLogo">
@@ -498,11 +500,11 @@
     <div id="overlayP2" class="scoreboardP2">
 
 
-        <div class="rect" id="p2Color"></div>
+        <div class="rect" style="display: none;" id="p2Color"></div>
         <img class="sagaIcon" id="sagaIconP2">
         <div class="pCharaMask">
             <div class="absol">
-                <img id="p2Character" class="pCharacter"/>
+                <img id="p2Character" style="display: none;" class="pCharacter"/>
             </div>
         </div>
 
