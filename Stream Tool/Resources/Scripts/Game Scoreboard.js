@@ -841,7 +841,7 @@ function getHexColor(color) {
 		case "Blue":
 			return "#2985f5";
 		case "Yellow":
-			return "#febc0d";	
+			return "#ffffff";	
 		case "Green":
 			return "#21b546";
 		case "Orange":
